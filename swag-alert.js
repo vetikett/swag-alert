@@ -75,51 +75,51 @@ function SwagIt( title, text, btnValue, imgUrl, themeColor ) {
 
 function swagOk () {
 	new SwagIt(
-		'Great!', 																																					//title
-		'You did it, well done!',																														//text
-		'Ok', 																																							//button value
+		'Great!', 											//title
+		'You did it, well done!',				//text
+		'Ok', 													//button value
 		'https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/128/thumbs_up.png',  	//img (url)
-		'#7793C1'																																						//theme color
+		'#7793C1'												//theme color
 	);
 }; 
 
 function swagAlert () {
 	new SwagIt(
-		'Alert!', 																																					//title
-		'Watch Out!',																																				//text
-		'Ok', 																																							//button value
+		'Alert!', 											//title
+		'Watch Out!',										//text
+		'Ok', 													//button value
 		'https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/128/bell.png',  			//img (url)
-		'#7793C1'																																						//theme color
+		'#7793C1'												//theme color
 	);
 }; 
 
 function swagSuccess () {
 	new SwagIt(
-		'Success!', 																																				//title
-		'Everything went smooth!',																													//text
-		'Ok', 																																							//button value
+		'Success!', 										//title
+		'Everything went smooth!',			//text
+		'Ok', 													//button value
 		'https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/ok.png',  				//img (url)
-		'#70B668'																																						//theme color
+		'#70B668'												//theme color
 	);
 };
 
 function swagError () {
 	new SwagIt(
-		'Error!', 																																					//title
-		'Something went wrong! :(',																													//text
-		'Ok', 																																							//button value
+		'Error!', 											//title
+		'Something went wrong! :(',			//text
+		'Ok', 													//button value
 		'https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/128/error.png',  			//img (url)
-		'#B43C45'																																						//theme color
+		'#B43C45'												//theme color
 	);
 };
 
 function swagUnAuth () {
 	new SwagIt(
-		'Unauthorized!', 																																		//title
-		"Access denied",																																		//text
-		'Ok', 																																							//button value
+		'Unauthorized!', 								//title
+		"Access denied",								//text
+		'Ok', 													//button value
 		'https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/128/hand_cursor.png', //img (url)
-		'#B43C45'																																						//theme color
+		'#B43C45'												//theme color
 	)
 };
 

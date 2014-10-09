@@ -1,0 +1,182 @@
+
+/* ==== SwagIt style ==== */
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+#alert-overlay {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#alert-box {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-align: center;
+	position: relative;
+	margin: 80px auto;
+	width: 360px;
+	height: 230px;
+	z-index: 1000;
+	opacity: 2;
+	border-radius: 2px;
+	padding: 10px 0;
+	
+  -ms-animation: showSwagAlert 0.4s;
+  -webkit-animation: showSwagAlert 0.4s;
+  animation: showSwagAlert 0.4s;
+
+}
+
+#alert-box h3 {
+	font-size: 32px;
+	margin: 5px 0;
+}
+
+#alert-box p {
+	font-size: 20px;
+	margin: 15px 0;
+}
+
+
+#alert-box img {   /* Theme icons from: https://www.iconfinder.com */
+	height: 50px;
+}
+
+#okBtn {
+	color: white;
+	padding: 15px 40px;
+	margin: 20px 0;
+	border: 2px solid white;
+	border-radius: 2px;
+	font-size: 16px;
+	outline: none;
+}
+
+/* for fade animations */
+#fade-alert-box {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-align: center;
+	position: relative;
+	margin: 80px auto;
+	width: 360px;
+	height: 230px;
+	z-index: 1000;
+	opacity: 2;
+	border-radius: 2px;
+	padding: 10px 0;
+	-ms-animation: hideSwagAlert 0.2s;
+  -webkit-animation: hideSwagAlert 0.2s;
+  animation: hideSwagAlert 0.2s;
+}
+#fade-alert-box h3 {
+	font-size: 32px;
+	margin: 5px 0;
+}
+
+#fade-alert-box p {
+	font-size: 20px;
+	margin: 15px 0;
+}
+
+#fade-alert-box img {
+	height: 50px;
+}
+
+
+/* ==== animations ==== */
+
+/* Show */
+@-webkit-keyframes showSwagAlert {
+  0% {
+    transform: scale(0.1);
+    -webkit-transform: scale(0.1); 
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } 
+  }
+@-moz-keyframes showSwagAlert {
+  0% {
+    transform: scale(0.1);
+    -webkit-transform: scale(0.1); 
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } 
+  }
+@keyframes showSwagAlert {
+  0% {
+    transform: scale(0.1);
+    -webkit-transform: scale(0.1); 
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1); 
+  } 
+}
+
+/* Hide */
+@-webkit-keyframes hideSwagAlert {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1); 
+  }
+  100% {
+    transform: scale(0);
+    -webkit-transform: scale(0); } 
+  }
+@-moz-keyframes hideSwagAlert {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1); 
+  }
+  100% {
+    transform: scale(0);
+    -webkit-transform: scale(0); } 
+  }
+@keyframes hideSwagAlert {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1); 
+  }
+  100% {
+    transform: scale(0);
+    -webkit-transform: scale(0); 
+  } 
+}
+
+
+/* ==== SwagIt style end ==== */
+
+/* ==== index Demo-page ==== */
+
+
+
+.container {
+	display: block;
+	text-align: center;
+	margin: 100px auto;
+}
+
+.demo-btn {
+	display: inline-block;
+	width: 170px;
+	padding: 10px;
+	font-size: 20px;
+	background-color: #AAAAAA;
+	border:none;
+	color: white;
+	margin: 2% 2%;
+}
+
+.demo-btn:hover {
+	cursor: pointer;
+	background-color: #262626;
+	border: none;
+}
+

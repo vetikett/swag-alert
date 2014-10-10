@@ -11,6 +11,7 @@ For every new function you just pass in the required parameters:
 -theme color (ex '#7793C1' )
 
 ==== Example ===
+
 function swagOk () {
 	new SwagIt(
 		'Great!', 					

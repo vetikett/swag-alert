@@ -13,26 +13,27 @@ For every new function you just pass in the required parameters:
 ==== Example ===
 
 function swagOk () {
-	new SwagIt(
-		'Great!', 					
-		'You did it, well done!',		
-		'Ok',
-		'https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/128/thumbs_up.png',
-		'#7793C1'	
-	);
+ new SwagIt(
+  'Great!', 
+  'You did it, well done!',
+  'Ok',
+  'https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/128/thumbs_up.png',
+  '#7793C1'
+ );
 }
 
 
-You can of course hard code OR use arguments as values ==== (like this)
+You can of course hard code OR 
+use arguments as values ==== (like this)
 
 function swagAlert (text) {  <==== (like this)
-	var alertText = text;  <==== (like this)
-	new SwagIt(
-		'Alert!', 					
-		alertText,	<==== (like this)							
-		'Ok',
-		'https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/128/bell.png',  
-		'#7793C1'	
-	);
+  var alertText = text;  <==== (like this)
+  new SwagIt(
+    'Alert!',
+    alertText,	<==== (like this)
+    'Ok',
+    'https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/128/bell.png',
+    '#7793C1'
+  );
 }
 
